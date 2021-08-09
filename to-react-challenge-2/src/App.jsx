@@ -54,10 +54,10 @@ export function App() {
           placeholder="Nueva tarea" 
           className={state}
           />
-        <button onClick={handleToDoAdd}>
+        <button onClick={handleToDoAdd} title="Add tasks">
           +
         </button>
-        <button onClick={handleToDelete}>
+        <button onClick={handleToDelete} title="Delete done tasks">
           -
         </button>
         <div>Restan {listaToDo.filter((toDo)=>!toDo.status).length} por realizar! </div>
