@@ -2,6 +2,8 @@ import React, { Fragment, useState, useRef} from 'react';
 import {v4 as uuidv4} from "uuid";
 import { ToDoList } from './components/ToDoList';
 
+import './App.css'
+
 export function App() {
   
   const [listaToDo, setListaToDo] = useState([]);
